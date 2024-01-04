@@ -1,6 +1,6 @@
-package cn.wdx.chatbot.api.domain.model.aggregates;
+package cn.wdx.chatbot.api.domain.zsxq.model.aggregates;
 
-import cn.wdx.chatbot.api.domain.model.vo.Data;
+import cn.wdx.chatbot.api.domain.zsxq.model.vo.Data;
 
 import java.io.Serializable;
 

@@ -1,13 +1,12 @@
-package cn.wdx.chatbot.api.domain.service.Impl;
+package cn.wdx.chatbot.api.domain.zsxq.service.Impl;
 
-import cn.wdx.chatbot.api.domain.model.aggregates.UnAnsweredQuestionsAggregates;
-import cn.wdx.chatbot.api.domain.model.req.AnswerReq;
-import cn.wdx.chatbot.api.domain.model.req.ReqData;
-import cn.wdx.chatbot.api.domain.model.res.AnswerRes;
-import cn.wdx.chatbot.api.domain.service.IZsxqApi;
+import cn.wdx.chatbot.api.domain.zsxq.model.aggregates.UnAnsweredQuestionsAggregates;
+import cn.wdx.chatbot.api.domain.zsxq.model.req.AnswerReq;
+import cn.wdx.chatbot.api.domain.zsxq.model.req.ReqData;
+import cn.wdx.chatbot.api.domain.zsxq.model.res.AnswerRes;
+import cn.wdx.chatbot.api.domain.zsxq.service.IZsxqApi;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import org.apache.http.HttpEntity;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;

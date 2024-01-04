@@ -1,6 +1,6 @@
-package cn.wdx.chatbot.api.domain.service;
+package cn.wdx.chatbot.api.domain.zsxq.service;
 
-import cn.wdx.chatbot.api.domain.model.aggregates.UnAnsweredQuestionsAggregates;
+import cn.wdx.chatbot.api.domain.zsxq.model.aggregates.UnAnsweredQuestionsAggregates;
 
 import java.io.IOException;
 

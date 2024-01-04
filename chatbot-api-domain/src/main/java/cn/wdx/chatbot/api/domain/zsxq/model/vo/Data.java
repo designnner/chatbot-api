@@ -1,4 +1,4 @@
-package cn.wdx.chatbot.api.domain.model.vo;
+package cn.wdx.chatbot.api.domain.zsxq.model.vo;
 
 import java.io.Serializable;
 import java.util.List;

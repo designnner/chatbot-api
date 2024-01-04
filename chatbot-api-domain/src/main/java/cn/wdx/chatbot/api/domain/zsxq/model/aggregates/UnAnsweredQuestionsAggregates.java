@@ -1,6 +1,6 @@
-package cn.wdx.chatbot.api.domain.model.aggregates;
+package cn.wdx.chatbot.api.domain.zsxq.model.aggregates;
 
-import cn.wdx.chatbot.api.domain.model.res.RespData;
+import cn.wdx.chatbot.api.domain.zsxq.model.res.RespData;
 
 /**
  * @author wudanxin

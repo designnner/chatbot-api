@@ -1,20 +1,18 @@
-package cn.wdx.chatbot.api.domain.model.vo;
+package cn.wdx.chatbot.api.domain.zsxq.model.vo;
 
 /**
  * @author wudanxin
  * @version 1.0
  * @description: TODO
- * @date 2024-01-03 11:26
+ * @date 2024-01-03 11:25
  */
-public class Questionee {
+public class Owner {
 
     private String user_id;
 
     private String name;
 
     private String avatar_url;
-
-    private String description;
 
     private String location;
 
@@ -35,12 +33,6 @@ public class Questionee {
     }
     public String getAvatar_url(){
         return this.avatar_url;
-    }
-    public void setDescription(String description){
-        this.description = description;
-    }
-    public String getDescription(){
-        return this.description;
     }
     public void setLocation(String location){
         this.location = location;

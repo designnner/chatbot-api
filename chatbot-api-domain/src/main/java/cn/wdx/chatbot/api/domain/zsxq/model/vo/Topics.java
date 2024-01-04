@@ -1,4 +1,4 @@
-package cn.wdx.chatbot.api.domain.model.vo;
+package cn.wdx.chatbot.api.domain.zsxq.model.vo;
 
 /**
  * @author wudanxin
