@@ -1,5 +1,7 @@
 package cn.wdx.chatbot.api.test;
 
+import cn.wdx.chatbot.api.domain.baiduchat.model.resp.AccessTokenResp;
+import cn.wdx.chatbot.api.domain.baiduchat.service.IBaiduService;
 import cn.wdx.chatbot.api.domain.zsxq.model.aggregates.UnAnsweredQuestionsAggregates;
 import cn.wdx.chatbot.api.domain.zsxq.model.aggregates.ZhipuAggregates;
 import cn.wdx.chatbot.api.domain.zsxq.model.vo.Topics;
@@ -46,8 +48,16 @@ public class TestApplication {
     @Value("${chatbot-api.cookie}")
     private String cookie;
 
+    @Value("${baidu.apikey}")
+    private String baiduApiKey;
+    @Value("${baidu.secretKey}")
+    private String baiduSecretKey;
+
     @Resource
     private IZsxqApi zsxqApi;
+
+    @Resource
+    private IBaiduService baiduService;
 
     @Test
     public void testZxsqApi() throws IOException {
@@ -134,6 +144,12 @@ public class TestApplication {
 
 
 
+    }
+
+    @Test
+    public void testGetAccessTokenResp() {
+        AccessTokenResp accessToken = baiduService.getAccessToken(baiduApiKey, baiduSecretKey);
+        System.out.println(accessToken.toString());
     }
 
 
