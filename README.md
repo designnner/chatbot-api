@@ -3,3 +3,8 @@
 
 # DDD
 每一个服务都有自己的衣柜，别人的衣柜你别碰
+
+# baidu url
+https://console.bce.baidu.com/qianfan/ais/console/applicationConsole/application
+https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Ilkkrb0i5
+
