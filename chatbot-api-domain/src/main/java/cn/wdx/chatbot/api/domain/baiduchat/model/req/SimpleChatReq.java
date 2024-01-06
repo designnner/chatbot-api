@@ -17,17 +17,10 @@ public class SimpleChatReq {
         this.messages = messages;
     }
 
-    public static void main(String[] args) {
-
-        SimpleChatReq simpleChatReq = new SimpleChatReq();
-        List<Message> messages = new ArrayList<>();
-        Message message = new Message("user", "hello");
-        messages.add(message);
-        simpleChatReq.setMessages(messages);
-        String s = JSONObject.toJSONString(simpleChatReq);
-
-        System.out.println(s);
-
-
+    @Override
+    public String toString() {
+        return "SimpleChatReq{" +
+                "messages=" + messages +
+                '}';
     }
 }

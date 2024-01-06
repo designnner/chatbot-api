@@ -148,8 +148,14 @@ public class TestApplication {
 
     @Test
     public void testGetAccessTokenResp() {
-        AccessTokenResp accessToken = baiduService.getAccessToken(baiduApiKey, baiduSecretKey);
-        System.out.println(accessToken.toString());
+        String accessToken = baiduService.getAccessToken("x", "o");
+    }
+
+    @Test
+    public void testSimpleChat() {
+        String accessToken = baiduService.getAccessToken(baiduApiKey, baiduSecretKey);
+        String resp = baiduService.getSimpleQuestionAnswer(accessToken, "1+1等于几啊");
+        System.out.println(resp);
     }
 
 
