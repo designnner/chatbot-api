@@ -1,0 +1,4 @@
+cn\wdx\chatbot\api\infrastructure\factory\CloseableHttpClientFactory.class
+cn\wdx\chatbot\api\infrastructure\factory\HttpClientFactory.class
+cn\wdx\chatbot\api\infrastructure\access\IPostReq.class
+cn\wdx\chatbot\api\infrastructure\access\PostReq.class

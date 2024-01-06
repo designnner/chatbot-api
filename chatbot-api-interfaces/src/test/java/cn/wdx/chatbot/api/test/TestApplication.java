@@ -1,7 +1,8 @@
 package cn.wdx.chatbot.api.test;
 
-import cn.wdx.chatbot.api.domain.baiduchat.model.resp.AccessTokenResp;
 import cn.wdx.chatbot.api.domain.baiduchat.service.IBaiduService;
+import cn.wdx.chatbot.api.domain.qfchat.IOpenAi;
+
 import cn.wdx.chatbot.api.domain.zsxq.model.aggregates.UnAnsweredQuestionsAggregates;
 import cn.wdx.chatbot.api.domain.zsxq.model.aggregates.ZhipuAggregates;
 import cn.wdx.chatbot.api.domain.zsxq.model.vo.Topics;
@@ -55,6 +56,15 @@ public class TestApplication {
 
     @Resource
     private IZsxqApi zsxqApi;
+
+
+    @Resource
+    private IOpenAi openAi;
+
+
+
+
+
 
     @Resource
     private IBaiduService baiduService;
